@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<!--
+Project name(项目名称)：Element_UI_tag
+  File name(文件名): test5
+  Authors(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/5/1
+  Time(创建时间)： 21:49
+  Description(描述)： 无
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/element-ui.css">
+    <script src="js/vue.js"></script>
+    <script src="js/element-ui.js"></script>
+    <style>
+        .el-tag {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <el-tag closable>标签1</el-tag>
+    <el-tag closable type="success">标签2</el-tag>
+    <el-tag closable type="info">标签3</el-tag>
+    <el-tag closable type="warning">标签4</el-tag>
+    <el-tag closable type="danger">标签5</el-tag>
+
+    <br>
+    <br>
+    <el-tag closable effect="dark">标签1</el-tag>
+    <el-tag closable effect="dark" type="success">标签2</el-tag>
+    <el-tag closable effect="dark" type="info">标签3</el-tag>
+    <el-tag closable effect="dark" type="warning">标签4</el-tag>
+    <el-tag closable effect="dark" type="danger">标签5</el-tag>
+    <br>
+    <br>
+    <el-tag closable effect="plain">标签1</el-tag>
+    <el-tag closable effect="plain" type="success">标签2</el-tag>
+    <el-tag closable effect="plain" type="info">标签3</el-tag>
+    <el-tag closable effect="plain" type="warning">标签4</el-tag>
+    <el-tag closable effect="plain" type="danger">标签5</el-tag>
+
+</div>
+
+<script>
+    var app = new Vue
+    (
+        {
+            el: "#app",
+            data: {},
+            methods: {},
+            mounted()
+            {
+
+            },
+        }
+    )
+</script>
+
+</body>
+</html>
